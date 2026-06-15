@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Linksys Velop",
+        "description": "Enter the IP address of your primary Velop node and the router admin password.",
+        "data": {
+          "host": "Router IP Address",
+          "password": "Admin Password",
+          "port": "Port (default 80)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the router. Check the IP address and that the router is reachable.",
+      "invalid_auth": "Invalid password. Check your router admin password.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This router is already configured."
+    }
+  }
+}
