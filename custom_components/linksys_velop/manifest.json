@@ -1,0 +1,13 @@
+{
+  "domain": "linksys_velop",
+  "name": "Linksys Velop",
+  "version": "1.0.0",
+  "documentation": "https://github.com/Conexo-Casa/linksys-velop",
+  "issue_tracker": "https://github.com/Conexo-Casa/linksys-velop/issues",
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@Conexo-Casa"],
+  "homeassistant": "2023.1.0"
+}
