@@ -1,8 +1,8 @@
 # Linksys Velop — Home Assistant Integration
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![Home Assistant Marketplace](https://img.shields.io/badge/HA%20Marketplace-custom%20repository-41BDF5.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Conexo-Casa&repository=linksys-velop&category=integration)
 
-A HACS-compatible Home Assistant custom integration for the **Linksys Velop MX4000** (and compatible MX-series) mesh Wi-Fi system. Communicates locally over the JNAP HTTP API — no cloud dependency.
+A Home Assistant custom integration for the **Linksys Velop MX4000** (and compatible MX-series) mesh Wi-Fi system. Communicates locally over the JNAP HTTP API — no cloud dependency.
 
 ---
 
@@ -31,13 +31,31 @@ A HACS-compatible Home Assistant custom integration for the **Linksys Velop MX40
 
 ---
 
-## Installation via HACS
+## Installation
 
-1. Open **HACS** → **Integrations**
-2. Click the three-dot menu → **Custom repositories**
-3. Add `https://github.com/Conexo-Casa/linksys-velop` with category **Integration**
-4. Search for **Linksys Velop** and click **Download**
-5. Restart Home Assistant
+### Marketplace (Home Assistant 2026.11 and newer)
+
+[![Open your Home Assistant instance and show this repository in the Marketplace.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Conexo-Casa&repository=linksys-velop&category=integration)
+
+Or by hand:
+
+1. Go to **Settings → Marketplace**.
+2. Select **Add from link** (top right) and enter `Conexo-Casa/linksys-velop`.
+   The first time, Home Assistant asks you to connect GitHub. That is a one-time,
+   read-only sign-in on github.com.
+3. Open **Linksys Velop** and select **Install**. The setup screen opens right away; a first
+   install doesn't need a restart.
+
+Updates show up under **Settings → Updates**. After an update, Home Assistant shows a
+repair that offers to restart.
+
+### HACS (Home Assistant 2026.10 and older)
+
+1. HACS → **Integrations** → **⋮** → **Custom repositories**.
+2. Add `https://github.com/Conexo-Casa/linksys-velop`, category **Integration**.
+3. Download **Linksys Velop**, then restart Home Assistant.
+
+An existing HACS install moves to the Marketplace by itself when you upgrade to 2026.11.
 
 ---
 
